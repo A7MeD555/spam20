@@ -11,7 +11,12 @@ client.on('ready', () => {
 
 
 
-// CODES HERE
+client.on("ready", () => {
+let channel =     client.channels.get("501507659820957706")
+setInterval(function() {
+channel.send(`اديلو اديلو متسبهوش اديلو سبام سبام سبام احية احية احية احية :joy:`);
+}, 25)
+})
 
 
 
